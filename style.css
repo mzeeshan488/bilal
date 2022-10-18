@@ -67,6 +67,7 @@ textarea{
     left: 0%;
     top: 0%;
     background: #3F0071 ;
+    border-radius: 3px;
 }
 .right .info{
     display: flex;
@@ -78,10 +79,12 @@ textarea{
     font-weight: 500;
 }
 .right .line{
-    height: 10px;
+    height: 12px;
+    border-radius: 3px;
     width: 100%;
     background-color: lightgrey;
     position: relative;
+    
 }
 .right .html::before{
     width: 90%;
