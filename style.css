@@ -75,17 +75,18 @@ textarea{
     }
     .heading-sec__main--lt{
         color:#111;
-        font-weight:800
+        font-weight:800;
     }
     .heading-sec__main--lt::after{
-        content:'';background:#98A8F8;
+        content:'';
+        background:#3F0071;
     }
     .heading-sec__main::after{
         content:'';
         position:absolute;
         top:calc(100% + 1.5rem);
         height:5px;width:3rem;
-        background:#98A8F8;
+        background:#3F0071;
         left:50%;
         transform:translateX(-50%);
         border-radius:5px
@@ -123,8 +124,8 @@ textarea{
         width:92%
     }
     .btn{
-        background:#98A8F8;
-        color:#333;
+        background:#3F0071;
+        color:#fff;
         text-transform:uppercase;
         letter-spacing:1px;
         display:inline-block;
@@ -145,13 +146,13 @@ textarea{
         font-size:1.6rem
     }
     .btn--theme{
-        background:#98A8F8;
-        color:#111
+        background:#3F0071;
+        color: #fff;
     }
     .btn--theme-inv{
         color:#111;
         background:#fff;
-        border:2px solid #98A8F8;
+        border:2px solid #3F0071;
         box-shadow:none;
         padding:calc(1.5rem - 2px) calc(5rem - 2px)
     }
@@ -253,7 +254,8 @@ textarea{
     }
     .home-hero__cta{
         margin-top:5rem;
-        text-align:center
+        text-align:center;
+        color: #fff;
     }
     .about{
         background:#fafafa
@@ -295,7 +297,7 @@ textarea{
     }
     .about__content-details-para a{
         text-decoration:underline;
-        font-weight:700;color:#98A8F8;
+        font-weight:700;color:#3F0071;
         margin:0 3px
     }
     .projects__row{
@@ -343,7 +345,8 @@ textarea{
     .projects__row-content-title{
         font-weight:700;
         font-size:2.8rem;
-        margin-bottom:2rem
+        margin-bottom:2rem;
+        
     }
     @media only screen and (max-width:37.5em){
         .projects__row-content-title{
@@ -352,7 +355,8 @@ textarea{
     }
     .projects__row-content-desc{
         font-size:1.8rem;
-        color:#666;max-width:60rem;
+        color:#666;
+        max-width:60rem;
         line-height:1.7;
         margin-bottom:3rem
     }
@@ -455,7 +459,8 @@ textarea{
     .contact__btn{
         width:30%;
         padding:2rem 4rem;
-        font-size:1.6rem
+        font-size:1.6rem;
+        color: #fff;
     }
     @media only screen and (max-width:37.5em){
         .contact__btn{width:100%}
@@ -493,7 +498,8 @@ textarea{
     }
     .project-cs-hero__cta{
         margin-top:5rem;
-        text-align:center
+        text-align:center;
+        color: #fff;
     }
     .project-details__content{
         padding:8rem 0;
@@ -520,18 +526,19 @@ textarea{
         margin:auto
     }
     .project-details__desc{
-        margin:0 0 7rem 0
+        margin:0 0 7rem 0;
     }
     .project-details__desc-para{
         font-size:1.8rem;
-        line-height:1.7;color:#666;margin-bottom:2rem
+        line-height:1.7;color:#666;
+        margin-bottom:2rem;
     }
     .project-details__tools-used{
-        margin:0 0 7rem 0
+        margin:0 0 7rem 0;
     }
     .project-details__tools-used-list{
         display:flex;
-        flex-wrap:wrap
+        flex-wrap:wrap;
     }
     .project-details__tools-used-item{
         padding:1rem 2rem;
@@ -591,7 +598,7 @@ textarea{
         transition:color .3s
     }
     .header__logo-container:hover{
-        color:#98A8F8
+        color:#3F0071
     }
     .header__logo-img-cont{
         width:5rem;
@@ -599,13 +606,14 @@ textarea{
         border-radius:50px;
         overflow:hidden;
         margin-right:1.5rem;
-        background:#98A8F8
+        background:#3F0071
     }
     @media only screen and (max-width:56.25em){
         .header__logo-img-cont
         {
             width:4.5rem;
-            height:4.5rem;margin-right:1.2rem
+            height:4.5rem;
+            margin-right:1.2rem;
         }
     }
     .header__logo-img{
@@ -642,7 +650,7 @@ textarea{
         transition:color .3s
     }
     .header__link:hover{
-        color:#98A8F8
+        color:#3F0071
     }
     @media only screen and (max-width:56.25em){
         .header__link{
@@ -699,7 +707,7 @@ textarea{
         transition:color .3s
     }
     .header__sm-menu-link a:hover{
-        color:#98A8F8
+        color:#3F0071
     }
     .header__sm-menu-link:first-child a{
         border-top:1px solid #eee
@@ -753,7 +761,7 @@ textarea{
     }
     .main-footer__icon{
         margin-right:1rem;
-        width:2.5rem
+        width:2.5rem;
     }
     .main-footer__icon--mr-none{
         margin-right:0
