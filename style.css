@@ -60,30 +60,46 @@ textarea{
 }
 
 
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
+.right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background: #3F0071 ;
+}
+.right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.right .line{
+    height: 10px;
+    width: 100%;
+    background-color: lightgrey;
     position: relative;
 }
-.nav-links ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+.right .html::before{
+    width: 90%;
 }
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: white;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
+.right .css::before{
+    width: 80%;
 }
-.nav-links ul li:hover::after{
-    width: 100%;
+.right .c::before{
+    width: 60%;
 }
+.right .sql::before{
+    width: 50%;
+}
+.right .mvc::before{
+    width: 10%;
+}
+
+
 @media only screen and (max-width:56.25em){
     .heading-sec__mb-med{
         margin-bottom:8rem}
