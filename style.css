@@ -83,7 +83,7 @@ textarea{
     stroke-linecap: round;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
-    animation-iteration-count: infinite;
+    
     
   }
   
@@ -92,18 +92,21 @@ textarea{
     stroke-dashoffset: 100;
     stroke: #3F0071;
     animation: progress-1 3s ease-out;
+    animation-iteration-count: infinite;
   }
   .meter-2 {
     stroke: #3F0071;
     stroke-dasharray: 360;
     stroke-dashoffset: 160;
     animation: progress-2 3s ease-out;
+    animation-iteration-count: infinite;
   }
   .meter-3 {
     stroke: #3F0071;
     stroke-dasharray: 360;
     stroke-dashoffset: 250;
     animation: progress-3 3s ease-out;
+    animation-iteration-count: infinite;
   }
   
   @keyframes progress-1 {
